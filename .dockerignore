@@ -1,0 +1,20 @@
+.git
+.gitignore
+.idea
+.vscode
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Local/system artifacts
+*.log
+error_log
+*.lnk
+Thumbs.db
+Desktop.ini
+
+# Keep runtime light; cPanel metadata not needed in image
+.ftpquota
+
+# Optional: avoid shipping nested ACME challenge mirrors
+.well-known/
